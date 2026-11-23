@@ -4,6 +4,22 @@ A working YouTube clone built with plain **HTML, CSS and JavaScript**. There are
 
 **Live demo:** https://youtube-clone-omega-sage.vercel.app/
 
+## Screenshots
+
+Captured from the [live site](https://youtube-clone-omega-sage.vercel.app/).
+
+| Home (light) | Home (dark) |
+| --- | --- |
+| ![Home page, light theme](screenshots/home-light.png) | ![Home page, dark theme](screenshots/home-dark.png) |
+
+| Watch page | Search results (dark) |
+| --- | --- |
+| ![Watch page with player and related videos](screenshots/watch.png) | ![Search results for "react"](screenshots/search.png) |
+
+| Mobile home | Mobile watch page (dark) |
+| --- | --- |
+| <img src="screenshots/mobile-home.png" alt="Mobile home page" width="300"> | <img src="screenshots/mobile-watch.png" alt="Mobile watch page, dark theme" width="300"> |
+
 ## Features
 
 - **Home feed** with a responsive video grid, category chips and loading placeholders
@@ -33,7 +49,8 @@ A working YouTube clone built with plain **HTML, CSS and JavaScript**. There are
 ├── style.css    All styles, themes and responsive breakpoints
 ├── app.js       Router, views, search, watch page, user state
 ├── data.js      The list of videos
-└── images/      Video thumbnails
+├── images/      Video thumbnails
+└── screenshots/ Images used in this README
 ```
 
 ## Run locally
